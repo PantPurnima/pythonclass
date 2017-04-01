@@ -1,4 +1,4 @@
-equation=raw_input('Enter an equation of line in the form y=mx+c')
+equation=input('Enter an equation of line in the form y=mx+c \n')
 a=equation.split("+")
 print('intercept={}'.format(a[1]))
 b=equation.split("+")[0].split("=")

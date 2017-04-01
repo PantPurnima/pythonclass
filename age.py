@@ -1,4 +1,4 @@
-dob = raw_input("Enter your date of birth in YYYY-MM-DD format.  ")
+dob =input("Enter your date of birth in YYYY-MM-DD format.  ")
 a=dob.split("-")
 
 f=float(a[0]) + float(a[1])/12+ float(a[2])/365
